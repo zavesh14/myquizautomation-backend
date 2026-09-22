@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from ai_service import analyze_question
+from .ai_service import analyze_question
 
 
 app = FastAPI(
